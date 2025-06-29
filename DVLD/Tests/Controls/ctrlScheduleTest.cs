@@ -30,15 +30,15 @@ namespace DVLD.Tests.Controls
                 switch (_TestTypeID) 
                 {
                     case clsTestType.enTestType.VisionTest:
-                        gbTestType.Text = "Vision Test";
+                        lblTitle.Text = "Vision Test";
                         pbTestTypeImage.Image = Resources.Vision_512;
                         break;
                     case clsTestType.enTestType.WrittenTest:
-                        gbTestType.Text = "Written Test";
+                        lblTitle.Text = "Written Test";
                         pbTestTypeImage.Image = Resources.Written_Test_512;
                         break;
                     case clsTestType.enTestType.StreetTest:
-                        gbTestType.Text = "Street Test";
+                        lblTitle.Text = "Street Test";
                         pbTestTypeImage.Image = Resources.driving_test_512;
                         break;
                 }

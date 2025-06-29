@@ -52,7 +52,6 @@ namespace DVLD.Applications.Local_Driving_License
                 dgvLocalDrivingLicenseApplications.Columns[6].HeaderText = "Status";
                 dgvLocalDrivingLicenseApplications.Columns[6].Width = 100;
             }
-            cbFilterBy.SelectedIndex = 0;
         }
 
         private void btnAddNewApplication_Click(object sender, EventArgs e)

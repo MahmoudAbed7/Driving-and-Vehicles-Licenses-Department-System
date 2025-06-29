@@ -118,8 +118,8 @@ namespace DVLD.Applications.International_License
                 if (cbFilterBy.Text == "None")
                 {
                     txtFilterValue.Enabled = false;
-                    //_dtDetainedLicenses.DefaultView.RowFilter = "";
-                    //lblTotalRecords.Text = dgvDetainedLicenses.Rows.Count.ToString();
+                    _dtInternationalLicenseApplications.DefaultView.RowFilter = "";
+                    lblInternationalLicensesRecords.Text = dgvInternationalLicenses.Rows.Count.ToString();
 
                 }
                 else

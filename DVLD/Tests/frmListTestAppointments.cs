@@ -56,6 +56,7 @@ namespace DVLD.Tests
         }
         private void frmListTestAppointments_Load(object sender, EventArgs e)
         {
+            _LoadTestTypeImageAndTitle();
             ctrlDrivingLicenseApplicationInfo1.LoadApplicationInfoByLocalDrivingAppID(_LocalDrivingLicenseApplicationID);
             _dtTestAppointment = clsTestAppointment.GetApplicationTestAppointmentsPerTestType(_LocalDrivingLicenseApplicationID, _TestTypeID);
 

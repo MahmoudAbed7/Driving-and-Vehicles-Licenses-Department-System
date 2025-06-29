@@ -102,13 +102,6 @@ namespace DVLD.Licenses.Controls
             InitializeComponent();
         }
 
-        private void cmsLocalLicenseHistory_Opening(object sender, CancelEventArgs e)
-        {
-            int LicenseID = (int)dgvLocalLicensesHistory.CurrentRow.Cells[0].Value;
-            frmShowLicenseInfo frm = new frmShowLicenseInfo(LicenseID);
-            frm.ShowDialog();
-        }
-
         private void showLicenseInfoToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             int InternationalLicenseID = (int)dgvInternationalLicensesHistory.CurrentRow.Cells[0].Value;
@@ -120,6 +113,13 @@ namespace DVLD.Licenses.Controls
         {
             _dtDriverLocalLicensesHistory.Clear();
 
+        }
+
+        private void showLicenseInfoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int LicenseID = (int)dgvLocalLicensesHistory.CurrentRow.Cells[0].Value;
+            frmShowLicenseInfo frm = new frmShowLicenseInfo(LicenseID);
+            frm.ShowDialog();
         }
     }
 }

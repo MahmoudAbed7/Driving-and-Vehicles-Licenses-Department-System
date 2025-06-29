@@ -48,10 +48,10 @@
             this.lblDetainID = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
-            this.llShowLicenseInfo = new System.Windows.Forms.LinkLabel();
             this.btnDetain = new System.Windows.Forms.Button();
-            this.llShowLicenseHistory = new System.Windows.Forms.LinkLabel();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.llShowLicenseHistory = new System.Windows.Forms.LinkLabel();
+            this.llShowLicenseInfo = new System.Windows.Forms.LinkLabel();
             this.gpDetain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -279,19 +279,6 @@
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // llShowLicenseInfo
-            // 
-            this.llShowLicenseInfo.AutoSize = true;
-            this.llShowLicenseInfo.Enabled = false;
-            this.llShowLicenseInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.llShowLicenseInfo.Location = new System.Drawing.Point(199, 667);
-            this.llShowLicenseInfo.Name = "llShowLicenseInfo";
-            this.llShowLicenseInfo.Size = new System.Drawing.Size(148, 20);
-            this.llShowLicenseInfo.TabIndex = 204;
-            this.llShowLicenseInfo.TabStop = true;
-            this.llShowLicenseInfo.Text = "Show Licenses Info";
-            this.llShowLicenseInfo.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llShowLicenseInfo_LinkClicked);
-            // 
             // btnDetain
             // 
             this.btnDetain.Enabled = false;
@@ -307,6 +294,10 @@
             this.btnDetain.UseVisualStyleBackColor = true;
             this.btnDetain.Click += new System.EventHandler(this.btnDetain_Click);
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // llShowLicenseHistory
             // 
             this.llShowLicenseHistory.AutoSize = true;
@@ -320,9 +311,18 @@
             this.llShowLicenseHistory.Text = "Show Licenses History";
             this.llShowLicenseHistory.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llShowLicenseHistory_LinkClicked);
             // 
-            // errorProvider1
+            // llShowLicenseInfo
             // 
-            this.errorProvider1.ContainerControl = this;
+            this.llShowLicenseInfo.AutoSize = true;
+            this.llShowLicenseInfo.Enabled = false;
+            this.llShowLicenseInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.llShowLicenseInfo.Location = new System.Drawing.Point(199, 667);
+            this.llShowLicenseInfo.Name = "llShowLicenseInfo";
+            this.llShowLicenseInfo.Size = new System.Drawing.Size(148, 20);
+            this.llShowLicenseInfo.TabIndex = 204;
+            this.llShowLicenseInfo.TabStop = true;
+            this.llShowLicenseInfo.Text = "Show Licenses Info";
+            this.llShowLicenseInfo.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llShowLicenseInfo_LinkClicked);
             // 
             // frmDetainLicenseApplication
             // 
@@ -375,9 +375,9 @@
         private System.Windows.Forms.Label lblDetainID;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnClose;
-        private System.Windows.Forms.LinkLabel llShowLicenseInfo;
         private System.Windows.Forms.Button btnDetain;
-        private System.Windows.Forms.LinkLabel llShowLicenseHistory;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.LinkLabel llShowLicenseInfo;
+        private System.Windows.Forms.LinkLabel llShowLicenseHistory;
     }
 }

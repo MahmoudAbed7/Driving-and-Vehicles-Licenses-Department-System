@@ -73,6 +73,7 @@ namespace DVLD.Tests
                 lblUserMessage.Visible = true;
                 rbFail.Enabled = false;
                 rbPass.Enabled = false;
+                btnSave.Enabled = false;
             }
             else _Test = new clsTest();
         }

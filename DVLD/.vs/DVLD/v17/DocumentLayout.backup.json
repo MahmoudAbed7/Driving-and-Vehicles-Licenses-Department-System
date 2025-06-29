@@ -1,12 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Mahmoud\\source\\repos\\DVLD\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Mahmoud\\Desktop\\Git Uploads\\Driving-and-Vehicles-Licenses-Department-System\\DVLD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4CE76EFB-D427-41EC-A90F-8AB136247AF9}|DVLD.csproj|c:\\users\\mahmoud\\desktop\\git uploads\\driving-and-vehicles-licenses-department-system\\dvld\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CE76EFB-D427-41EC-A90F-8AB136247AF9}|DVLD.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CE76EFB-D427-41EC-A90F-8AB136247AF9}|DVLD.csproj|c:\\users\\mahmoud\\desktop\\git uploads\\driving-and-vehicles-licenses-department-system\\dvld\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4CE76EFB-D427-41EC-A90F-8AB136247AF9}|DVLD.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\Desktop\\Git Uploads\\Driving-and-Vehicles-Licenses-Department-System\\DVLD\\frmMain.cs",
+              "RelativeDocumentMoniker": "frmMain.cs",
+              "ToolTip": "C:\\Users\\Mahmoud\\Desktop\\Git Uploads\\Driving-and-Vehicles-Licenses-Department-System\\DVLD\\frmMain.cs",
+              "RelativeToolTip": "frmMain.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAewJAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T11:43:01.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mahmoud\\Desktop\\Git Uploads\\Driving-and-Vehicles-Licenses-Department-System\\DVLD\\frmMain.cs",
+              "RelativeDocumentMoniker": "frmMain.cs",
+              "ToolTip": "C:\\Users\\Mahmoud\\Desktop\\Git Uploads\\Driving-and-Vehicles-Licenses-Department-System\\DVLD\\frmMain.cs [Design]",
+              "RelativeToolTip": "frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T11:42:46.354Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
